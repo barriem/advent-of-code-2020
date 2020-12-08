@@ -1,7 +1,6 @@
 (ns advent.core
   (:require [clojure.java.io :as io]
-            [clojure.string :as string]
-            [clojure.walk :as walk]))
+            [clojure.string :as string]))
 
 (def data-file (io/resource "input.txt"))
 
